@@ -1,21 +1,21 @@
-Angular Cheatsheet
-**1. Basics**
-**1.1. Angular Overview**
-Framework: Angular is a platform for building web applications.
-Written in: TypeScript
-Architecture: Component-based, with modules, components, services, and directives.
-**1.2. Setting Up an Angular Project**
-Install Angular CLI: npm install -g @angular/cli
-Create a New Project: ng new my-app
-Navigate to Project: cd my-app
-Serve the Application: ng serve (http://localhost:4200)
-**1.3. Basic Structure**
-Module: app.module.ts
-Component: app.component.ts (HTML, CSS, TS)
-Service: data.service.ts
-**1.4. Creating Components**
-Generate Component: ng generate component component-name
-Basic Structure:
+# Angular Cheatsheet
+## 1. Basics
+## 1.1. Angular Overview
+- **Framework**: Angular is a platform for building web applications.
+- **Written in**: TypeScript
+- **Architecture**: Component-based, with modules, components, services, and directives.
+## 1.2. Setting Up an Angular Project
+- **Install Angular CLI**: npm install -g @angular/cli
+- **Create a New Project**: ng new my-app
+- **Navigate to Project**: cd my-app
+- **Serve the Application**: ng serve (http://localhost:4200)
+## 1.3. Basic Structure
+- **Module**: app.module.ts
+- **Component**: app.component.ts (HTML, CSS, TS)
+- **Service**: data.service.ts
+## 1.4. Creating Components
+- **Generate Component**: ng generate component component-name
+- **Basic Structure**:
 
 ```typescript
 import { Component } from '@angular/core';
