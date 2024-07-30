@@ -103,8 +103,8 @@ export class MyComponent implements OnInit, OnDestroy {
   ngOnDestroy() { }
 }
 ```
-## 3. Advanced Topics**
-## 3.1. Angular Modules**
+## 3. Advanced Topics
+## 3.1. Angular Modules
 - Feature Modules: Create feature-specific modules to organize code.
 
 ```typescript
@@ -115,7 +115,7 @@ export class MyComponent implements OnInit, OnDestroy {
 })
 export class FeatureModule { }
 ```
-## 3.2. Lazy Loading**
+## 3.2. Lazy Loading
 - Configure Lazy Loading: Define in routing module.
 
 ```typescript
@@ -126,7 +126,7 @@ const routes: Routes = [
   }
 ];
 ```
-## 3.3. State Management**
+## 3.3. State Management
 - NgRx: Use for state management.
 - Actions: Define actions.
 - Reducers: Handle state changes.
@@ -160,7 +160,7 @@ export class MyService {
 })
 export class ComponentName { }
 ```
-- **TrackBy Function: Improve *ngFor performance.**
+- TrackBy Function: Improve *ngFor performance.
 ```typescript
 trackById(index: number, item: any): number { return item.id; }
 ```
